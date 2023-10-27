@@ -1,4 +1,10 @@
-//We are also overriding the $primary variable to be red instead of the default blue.
+//We are also overriding the $primary variable to be green instead of the default blue.
 $primary: #00ff04;
+$secondary: #e100ff;
+$success: #119814;
+$body-bg: #191818;
+$body-color: #f14646;
+
 
 @import '../node_modules/bootstrap/scss/bootstrap';
+@import "../node_modules/bootstrap/scss/variables";
